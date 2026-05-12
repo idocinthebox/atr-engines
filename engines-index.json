@@ -1,28 +1,58 @@
 {
-  "schema_version": 1,
-  "engines": [
-    {
-      "id": "ltx_generative_repair",
-      "name": "LTX Generative Repair",
-      "version": "1.1.0",
-      "author": "idocinthebox",
-      "description": "AI-powered generative video repair using LTX-Video diffusion models. Inpaint damaged frames, fill sprocket holes, and restore corrupted film regions with context-aware generation. Includes ProPainter batch repair and streaming export.",
-      "category": "restoration",
-      "tier": "premium",
-      "min_license": "community",
-      "download_url": "https://github.com/idocinthebox/ATR-LTX-Generative-Repair/releases/download/v1.1.0/ltx_generative_repair_1.1.0.atrengine",
-      "sha256": "850a02c37d6393bd291d28b9b5b427ea827e080f788f1a2ac3fa3982a4298d58",
-      "size_bytes": 34868,
-      "min_atr_version": "6.0.0",
-      "homepage": "https://github.com/idocinthebox/ATR-LTX-Generative-Repair",
-      "dependencies": ["httpx>=0.27.0"],
-      "weight_size_mb": 0,
-      "vram_mb": 4000,
-      "backends": ["external"],
-      "non_commercial": false,
-      "purchase_url": "https://docinthebox.gumroad.com/l/ltx-generative-repair",
-      "price": "$19.99",
-      "product_id": "ltx-generative-repair"
-    }
-  ]
+    "schema_version":  1,
+    "engines":  [
+                    {
+                        "id":  "ltx_generative_repair",
+                        "name":  "LTX Generative Repair",
+                        "version":  "1.1.0",
+                        "author":  "idocinthebox",
+                        "description":  "AI-powered generative video repair using LTX-Video diffusion models. Inpaint damaged frames, fill sprocket holes, and restore corrupted film regions with context-aware generation. Includes ProPainter batch repair and streaming export.",
+                        "category":  "restoration",
+                        "tier":  "premium",
+                        "min_license":  "community",
+                        "download_url":  "https://github.com/idocinthebox/ATR-LTX-Generative-Repair/releases/download/v1.1.0/ltx_generative_repair_1.1.0.atrengine",
+                        "sha256":  "850a02c37d6393bd291d28b9b5b427ea827e080f788f1a2ac3fa3982a4298d58",
+                        "size_bytes":  34868,
+                        "min_atr_version":  "6.0.0",
+                        "homepage":  "https://github.com/idocinthebox/ATR-LTX-Generative-Repair",
+                        "dependencies":  [
+                                             "httpx>=0.27.0"
+                                         ],
+                        "weight_size_mb":  0,
+                        "vram_mb":  4000,
+                        "backends":  [
+                                         "external"
+                                     ],
+                        "non_commercial":  false,
+                        "purchase_url":  "https://docinthebox.gumroad.com/l/ltx-generative-repair",
+                        "price":  "$19.99",
+                        "product_id":  "ltx-generative-repair"
+                    },
+                    {
+                        "id":  "atr_story_renderer",
+                        "name":  "ATR Story Renderer",
+                        "version":  "1.0.0",
+                        "author":  "idocinthebox",
+                        "description":  "Generate before/after demos and restoration report videos from ATR job artifacts. Includes FFmpeg + optional HyperFrames backend, alpha exports (ProRes 4444 / PNG sequence), HTML preview, and Resolve overlay pack helper.",
+                        "category":  "productivity",
+                        "tier":  "free",
+                        "min_license":  "community",
+                        "download_url":  "https://github.com/idocinthebox/atr-engines/releases/download/atr_story_renderer-1.0.0/atr_story_renderer_1.0.0.atrengine",
+                        "sha256":  "d4412504734c8b6414fe8c0a44f5f81ee214b5127313c6d69ab4a867469d14aa",
+                        "size_bytes":  59906,
+                        "min_atr_version":  "6.0.0",
+                        "homepage":  "https://github.com/idocinthebox/ATRPro/tree/main/addons/atr_story_renderer",
+                        "dependencies":  [
+                                             "pydantic>=2.0,<3.0",
+                                             "jinja2>=3.0,<4.0",
+                                             "pillow>=10.0,<13.0"
+                                         ],
+                        "weight_size_mb":  0,
+                        "vram_mb":  0,
+                        "backends":  [
+                                         "external"
+                                     ],
+                        "non_commercial":  false
+                    }
+                ]
 }
