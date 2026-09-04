@@ -4,15 +4,15 @@
     {
       "id": "ltx_generative_repair",
       "name": "LTX Generative Repair",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "author": "idocinthebox",
       "description": "AI-powered generative video repair using LTX-Video diffusion models. Inpaint damaged frames, fill sprocket holes, and restore corrupted film regions with context-aware generation. Includes ProPainter batch repair and streaming export.",
       "category": "restoration",
       "tier": "premium",
       "min_license": "community",
-      "download_url": "https://github.com/idocinthebox/atr-engines/releases/download/ltx_generative_repair-1.1.1/ltx_generative_repair_1.1.1.atrengine",
-      "sha256": "12e4d9df8147e0df54616ead83911ea1168b48abf404e7023ef7533d53cba9fb",
-      "size_bytes": 35437,
+      "download_url": "https://github.com/idocinthebox/atr-engines/releases/download/ltx_generative_repair-1.2.0/ltx_generative_repair_1.2.0.atrengine",
+      "sha256": "1414c4b0e360abda1f21ae8597aa1669f822db9ed03fe6cadde77570c90e3bad",
+      "size_bytes": 39692,
       "min_atr_version": "6.0.0",
       "homepage": "https://github.com/idocinthebox/ATR-LTX-Generative-Repair",
       "dependencies": [
@@ -24,7 +24,7 @@
         "external"
       ],
       "non_commercial": false,
-      "purchase_url": "https://docinthebox.gumroad.com/l/ltx-generative-repair",
+      "purchase_url": "",
       "price": "$19.99",
       "product_id": "ltx-generative-repair"
     },
