@@ -4,16 +4,16 @@
     {
       "id": "ltx_generative_repair",
       "name": "LTX Generative Repair",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": "idocinthebox",
-      "description": "AI-powered generative video repair using LTX-Video diffusion models. Inpaint damaged frames, fill sprocket holes, and restore corrupted film regions with context-aware generation. Includes ProPainter batch repair and streaming export.",
+      "description": "AI-powered generative video repair using LTX-Video diffusion models. Inpaint damaged frames, fill sprocket holes, and restore corrupted film regions with context-aware generation. Includes ProPainter batch repair and streaming export. Backends: OpenCV (built in), Cloud and Self-Hosted (unrestricted, Cloud needs your own LTX API key), and ProPainter (free separate install you perform yourself, NTU S-Lab License 1.0 - non-commercial use only).",
       "category": "restoration",
       "tier": "premium",
       "min_license": "community",
-      "download_url": "https://github.com/idocinthebox/atr-engines/releases/download/ltx_generative_repair-1.2.0/ltx_generative_repair_1.2.0.atrengine",
-      "sha256": "1414c4b0e360abda1f21ae8597aa1669f822db9ed03fe6cadde77570c90e3bad",
-      "size_bytes": 39692,
-      "min_atr_version": "6.0.0",
+      "download_url": "https://github.com/idocinthebox/atr-engines/releases/download/ltx_generative_repair-1.2.1/ltx_generative_repair_1.2.1.atrengine",
+      "sha256": "8af232d6108c3abfb11fc45c7f87321e508ef6593884625a5500b3887c5ed194",
+      "size_bytes": 41753,
+      "min_atr_version": "6.2.2",
       "homepage": "https://github.com/idocinthebox/ATR-LTX-Generative-Repair",
       "dependencies": [
         "httpx>=0.27.0"
@@ -24,9 +24,10 @@
         "external"
       ],
       "non_commercial": false,
-      "purchase_url": "",
+      "vendor": "lemonsqueezy",
+      "purchase_url": "https://idocinthebox.lemonsqueezy.com/checkout/buy/fa90bc5e-22ff-4ef4-ac06-061245366d75",
       "price": "$19.99",
-      "product_id": "ltx-generative-repair"
+      "product_id": "1326806"
     },
     {
       "id": "atr_story_renderer",
